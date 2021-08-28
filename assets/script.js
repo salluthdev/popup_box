@@ -11,4 +11,10 @@ $(document).ready(function()
 			"opacity":"0", "pointer-events":"none"
 		});
 	});
+	$('.btn_yes').click(function(){
+		$('.popup_box').css({
+			"opacity":"0", "pointer-events":"none"
+		});
+		alert("Your Content Deleted Succesfully.")
+	});
 });
