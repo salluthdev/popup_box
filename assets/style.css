@@ -39,4 +39,18 @@ body
 	padding: 40px;
 	border: 1px solid #d3d3d3;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	z-index: 10000;
+}
+.popup_box i
+{
+	font-size: 60px;
+	color: #eb9477;
+	border: 5px solid #eb9477;
+	padding: 20px 40px;
+	border-radius: 50%;
+	margin: -10px 0 20px;
+}
+.popup_box h2
+{
+	
 }
