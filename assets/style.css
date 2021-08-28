@@ -68,16 +68,29 @@ body
 }
 .popup_box .btn .btn_no, .popup_box .btn .btn_yes
 {
-	background: #999999;
 	color: #fff;
 	font-size: 16px;
 	padding: 10px 12px;
-	border: 1px solid #808080;
 	border-radius: 4px;
+}
+.popup_box .btn .btn_no
+{
+	background: #999999;
+	border: 1px solid #808080;
 }
 .popup_box .btn .btn_yes
 {
 	background: #ff3333;
 	margin-left: 10px;
 	border: 1px solid #cc0000;
+}
+.popup_box .btn .btn_no:hover
+{
+	transition: 0.5s;
+	background: #8c8c8c;
+}
+.popup_box .btn .btn_yes:hover
+{
+	transition: 0.5s;
+	background: #8c8c8c;
 }
