@@ -6,8 +6,25 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
 }
 body
 {
 	overflow-x: hidden;
+}
+.click
+{
+	background: #2981bc;
+	color: #fff;
+	text-align: center;
+	padding: 10px 15px;
+	border: 1px solid #0059b3;
+}
+.click, .popup_box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
 }
